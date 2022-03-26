@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D52CE2C927EF04480062F9AE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52CE2C827EF04480062F9AE /* LocationService.swift */; };
 		D5E0ED3A27ECB54900DE6566 /* PlaySwiftUIMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E0ED3927ECB54900DE6566 /* PlaySwiftUIMapApp.swift */; };
 		D5E0ED3E27ECB54E00DE6566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E0ED3D27ECB54E00DE6566 /* Assets.xcassets */; };
 		D5E0ED4127ECB54E00DE6566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E0ED4027ECB54E00DE6566 /* Preview Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D52CE2C827EF04480062F9AE /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		D5E0ED3627ECB54900DE6566 /* PlaySwiftUIMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaySwiftUIMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E0ED3927ECB54900DE6566 /* PlaySwiftUIMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySwiftUIMapApp.swift; sourceTree = "<group>"; };
 		D5E0ED3D27ECB54E00DE6566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D52CE2C727EF042E0062F9AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D52CE2C827EF04480062F9AE /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D5E0ED2D27ECB54900DE6566 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				D5E0ED6C27ECC48300DE6566 /* Views */,
+				D52CE2C727EF042E0062F9AE /* Services */,
 				D5E0ED3927ECB54900DE6566 /* PlaySwiftUIMapApp.swift */,
 				D5E0ED3D27ECB54E00DE6566 /* Assets.xcassets */,
 				D5E0ED3F27ECB54E00DE6566 /* Preview Content */,
@@ -270,6 +281,7 @@
 			files = (
 				D5E0ED6E27ECC48F00DE6566 /* MapView.swift in Sources */,
 				D5E0ED3A27ECB54900DE6566 /* PlaySwiftUIMapApp.swift in Sources */,
+				D52CE2C927EF04480062F9AE /* LocationService.swift in Sources */,
 				D5E0ED7027ECC4AD00DE6566 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

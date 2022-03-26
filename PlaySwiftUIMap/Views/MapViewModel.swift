@@ -15,4 +15,6 @@ class MapViewModel: ObservableObject {
         latitudinalMeters: 1_700_000,
         longitudinalMeters: 1_700_000
     )
+
+    let locationService = LocationService()
 }
