@@ -11,8 +11,6 @@ import CoreLocation
 class LocationService: NSObject {
     private let locationManager = CLLocationManager()
 
-    @Published var location: CLLocation?
-
     override init() {
         super.init()
         locationManager.delegate = self
@@ -22,12 +20,12 @@ class LocationService: NSObject {
 
 extension LocationService: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        self.location = locations.last
     }
 
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
     }
 
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        // TODO: error handler
     }
 }
